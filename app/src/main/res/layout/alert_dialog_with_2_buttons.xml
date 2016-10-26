@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dlgHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/dialogIcon"
+            android:src="@android:drawable/ic_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dlgHdngTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_heading"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dlgBtnPve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/dlgHeading"
+        android:layout_below="@+id/dlgHeading"
+        android:text="@string/dialog_button_positive"/>
+
+    <Button
+        android:id="@+id/dlgBtnNve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="@+id/dlgHeading"
+        android:layout_below="@+id/dlgHeading"
+        android:text="@string/dialog_button_negative"/>
+
+
+
+</RelativeLayout>

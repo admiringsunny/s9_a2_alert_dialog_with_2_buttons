@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">S9A2AlertDialogWith2Buttons</string>
+    <string name="main_activity_heading">Alert Dialog With 2 Buttons</string>
+    <string name="button_display_dialog_text">Show Alert With Two Buttons</string>
+    <string name="dialog_heading">Confirm Delete...</string>
+    <string name="dialog_button_positive">Yes</string>
+    <string name="dialog_button_negative">No</string>
+</resources>
